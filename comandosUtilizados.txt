@@ -1,0 +1,21 @@
+    1  git init
+    2  git config --global user.name "Oscar Coyla"
+    3  git config --global user.email "ocoyladev@gmail.com"
+    4  git remote add origin https://github.com/ocoyladev/20230605-OscarCoyla.git
+    5  touch comandos.txt main.js index.html
+    6  git commit -m "commit 01 de OscarCoyla"
+    7  git add .
+    8  git commit -m "commit 02 de OscarCoyla"
+    9  git checkout -b feature01
+   10  mkdir Terminal Hardware
+   11  touch Terminal/resumen.txt Hardware/resumen.txt
+   12  git add .
+   13  git commit -m "commit 03 de OscarCoyla"
+   14  git push origin feature01
+   15  git checkout -b feature02
+   16  git add .
+   17  git commit -m "commit 04 de OscarCoyla"
+   18  git push origin feature02
+   19  git checkout main
+   20  mv comandos.txt comandosUtilizados.txt
+   21  history
